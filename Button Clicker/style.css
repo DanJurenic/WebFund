@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.topbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.topbar > p{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.btn{
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    box-shadow: 5px 5px black;
+}
+
+.ninjadef1, .ninjadef2{
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.definedbyyou{
+    border: 5px solid black;
+    margin: 10px;
+    padding: 20px;
+}
+
+.word{
+    padding: 20px;
+}
+.word > p{
+    text-align: center;
+}
+
+.definitions{
+    width: 70%;
+}
+
+.rightside{
+    width: 30%;
+}
+
+.row{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.likebutton{
+    color: black;
+    background-color: yellow;
+    padding: 5px;
+    margin-top: 10px;
+    box-shadow: 5px 5px black;
+}
+
+.addDefinition{
+    color: black;
+    background-color: green;
+    white-space: nowrap;
+    padding: 5px 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: 5px 5px black;
+}

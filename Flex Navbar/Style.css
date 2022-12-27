@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Serif', serif;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: dimgray;
+    padding: 10px;
+
+}
+
+h1, .active{
+    color: white;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style-type: none;
+    width: 100%;
+}
+
+.btn{
+    color: white;
+    background-color: rgb(0, 247, 255);
+    width: 100px;
+    height: 30px;
+    box-shadow: 5px 5px black;
+}
+
+li{
+    padding: 0px 10px;
+}

@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    width: inherit;
+    height: 300px;
+    background-color: darkcyan;
+}
+
+.container{
+    display: flex 1;
+    border: 5px solid darkgray;
+    margin: 50px 300px;
+}
+
+.usercircle{
+    border: 5px solid darkgray;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: white;
+    position: relative;
+    left: 50px;
+    bottom: 150px;
+}
+
+.info{
+    position: relative;
+    left: 50px;
+    bottom: 150px;
+}
+
+.location, .editprofile{
+    display: flex;
+    margin: 10px 0px 10px 10px;
+}
+
+.text{
+    font-size: 25px;
+}
+.location > img, .editprofile > img{
+    padding: 0px 10px 0px 0px;
+}

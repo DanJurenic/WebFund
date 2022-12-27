@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 10px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+.container{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+
+#top{
+    background-color: cadetblue;
+    justify-content: space-between;
+}
+
+#mid{
+    background-color: cornflowerblue;
+    justify-content: space-evenly;
+}
+
+#bottom{
+    background-color: darkkhaki;
+    justify-content: space-between;
+}
+
+.linkoctodex{
+    display: flex;
+    justify-content: center;
+}

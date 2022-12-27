@@ -1,0 +1,23 @@
+h1 {
+    color:white;
+    background-color:black;
+    text-align: left;
+    font-family: cursive;
+}
+
+h2 {
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    font-style: italic;
+    font-family: cursive;
+}
+
+h3 {
+    color: black;
+    background-color: cornflowerblue;
+    text-align: right;
+    font-weight: bold;
+    font-family: cursive;
+    text-decoration: underline;
+}

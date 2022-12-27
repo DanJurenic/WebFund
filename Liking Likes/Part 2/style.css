@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#container > h1{
+    color: white;
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+}
+
+#container > p{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#maincontent {
+    display: flex;
+    width: 100%;
+}
+
+#infocolumn {
+    width: 35%;
+}
+
+#commentcolumn {
+    width: 65%;
+}
+
+.commentbox, #infobox {
+    display: inline-block;
+    border: 5px solid black;
+    width: fit-content;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#infobox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#infobox > img{ 
+    width: 100px;
+    height: 100px;
+}
+
+#infobox > * {
+    padding: 10px;
+}
+
+.toprow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.likebutton {
+    color: black;
+    padding: 5px;
+    background-color: yellow;
+    box-shadow: 5px 5px black;
+}
